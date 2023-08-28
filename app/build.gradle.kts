@@ -47,8 +47,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":permission"))
-//    implementation("com.github.Dinesh2811:EasyPermissionRequest:0.0.0")
+//    implementation(project(":permission"))
+    implementation(project(mapOf("path" to ":permission")))
+//    implementation("com.github.Dinesh2811:EasyPermissionRequest:1.0")
 
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.activity:activity-compose:1.7.2")

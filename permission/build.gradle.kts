@@ -41,7 +41,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Dinesh2811"
             artifactId = "EasyPermissionRequest"
-            version = "0.0.0"
+            version = "1.0"
         }
     }
     repositories {
